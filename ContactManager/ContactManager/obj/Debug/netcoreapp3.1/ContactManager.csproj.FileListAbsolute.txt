@@ -77,3 +77,6 @@ C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application 
 C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application Development\ContactManager\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.dll
 C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application Development\ContactManager\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.pdb
 C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application Development\ContactManager\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.genruntimeconfig.cache
+C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application Development\ContactManager\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Delete.cshtml.g.cs
+C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application Development\ContactManager\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Details.cshtml.g.cs
+C:\OneDrive\OneDrive - George Brown College\Semester IV\Courses\Web Application Development\ContactManager\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Edit.cshtml.g.cs

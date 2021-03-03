@@ -1,22 +1,28 @@
 ﻿using ContactManager.Models;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace ContactManager.Controllers
 {
     public class HomeController : Controller
     {
-        public ContactContext context;
+        
+        private ContactContext context { get; set; }
+
+        //Defining injection
         public HomeController(ContactContext ctx)
         {
             context = ctx;
         }
         public IActionResult Index()
         {
-            return View();
+            //Give us a list of Contact records
+            var contacts = context.Contacts
+                .Include(c => c.Category)
+                .OrderBy(c => c.FirstName)
+                .ToList();
+            return View(contacts);
         }
     }
 }
