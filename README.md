@@ -1,2 +1,2 @@
 # ContactManager
-A Basic .NET MVC Contact Manager Application
+A Basic .NET MVC Dynamic Contact Manager Application
