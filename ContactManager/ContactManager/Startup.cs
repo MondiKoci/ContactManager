@@ -32,8 +32,8 @@ namespace ContactManager
                 options.AppendTrailingSlash = true;
             });
 
-            services.AddDbContext<ContContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("ContContext")));
+            services.AddDbContext<ContactContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("ContactContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,7 +60,7 @@ namespace ContactManager
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}");
             });
         }
     }

@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ContactManager.Migrations
 {
-    [DbContext(typeof(ContContext))]
-    partial class ContContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ContactContext))]
+    partial class ContactContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -101,7 +101,7 @@ namespace ContactManager.Migrations
                         {
                             ContactId = 1,
                             CategoryId = 3,
-                            DateAdded = new DateTime(2021, 3, 1, 18, 26, 37, 476, DateTimeKind.Local).AddTicks(1757),
+                            DateAdded = new DateTime(2021, 3, 3, 0, 44, 38, 828, DateTimeKind.Local).AddTicks(7317),
                             Email = "delijaalda@mail.com",
                             FirstName = "Esmeralda",
                             LastName = "Koci",
@@ -112,7 +112,7 @@ namespace ContactManager.Migrations
                         {
                             ContactId = 2,
                             CategoryId = 2,
-                            DateAdded = new DateTime(2021, 3, 1, 18, 26, 37, 476, DateTimeKind.Local).AddTicks(3089),
+                            DateAdded = new DateTime(2021, 3, 3, 0, 44, 38, 828, DateTimeKind.Local).AddTicks(9176),
                             Email = "select@hotmail.com",
                             FirstName = "Laszlo",
                             LastName = "Torok",
@@ -123,7 +123,7 @@ namespace ContactManager.Migrations
                         {
                             ContactId = 3,
                             CategoryId = 1,
-                            DateAdded = new DateTime(2021, 3, 1, 18, 26, 37, 476, DateTimeKind.Local).AddTicks(3112),
+                            DateAdded = new DateTime(2021, 3, 3, 0, 44, 38, 828, DateTimeKind.Local).AddTicks(9245),
                             Email = "frederic.knoestah@georgebrown.ca",
                             FirstName = "Frederic",
                             LastName = "Knoestah",

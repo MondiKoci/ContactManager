@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ContactManager.Migrations
 {
-    public partial class initialBuild : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -60,17 +60,17 @@ namespace ContactManager.Migrations
             migrationBuilder.InsertData(
                 table: "Contacts",
                 columns: new[] { "ContactId", "CategoryId", "DateAdded", "Email", "FirstName", "LastName", "Organization", "Phone", "Portfolio" },
-                values: new object[] { 3, 1, new DateTime(2021, 3, 1, 18, 26, 37, 476, DateTimeKind.Local).AddTicks(3112), "frederic.knoestah@georgebrown.ca", "Frederic", "Knoestah", null, "416-578-4188", null });
+                values: new object[] { 3, 1, new DateTime(2021, 3, 3, 0, 44, 38, 828, DateTimeKind.Local).AddTicks(9245), "frederic.knoestah@georgebrown.ca", "Frederic", "Knoestah", null, "416-578-4188", null });
 
             migrationBuilder.InsertData(
                 table: "Contacts",
                 columns: new[] { "ContactId", "CategoryId", "DateAdded", "Email", "FirstName", "LastName", "Organization", "Phone", "Portfolio" },
-                values: new object[] { 2, 2, new DateTime(2021, 3, 1, 18, 26, 37, 476, DateTimeKind.Local).AddTicks(3089), "select@hotmail.com", "Laszlo", "Torok", "Select Protection Services", "416-828-7552", null });
+                values: new object[] { 2, 2, new DateTime(2021, 3, 3, 0, 44, 38, 828, DateTimeKind.Local).AddTicks(9176), "select@hotmail.com", "Laszlo", "Torok", "Select Protection Services", "416-828-7552", null });
 
             migrationBuilder.InsertData(
                 table: "Contacts",
                 columns: new[] { "ContactId", "CategoryId", "DateAdded", "Email", "FirstName", "LastName", "Organization", "Phone", "Portfolio" },
-                values: new object[] { 1, 3, new DateTime(2021, 3, 1, 18, 26, 37, 476, DateTimeKind.Local).AddTicks(1757), "delijaalda@mail.com", "Esmeralda", "Koci", "Shkodra Web", "314-143-3141", null });
+                values: new object[] { 1, 3, new DateTime(2021, 3, 3, 0, 44, 38, 828, DateTimeKind.Local).AddTicks(7317), "delijaalda@mail.com", "Esmeralda", "Koci", "Shkodra Web", "314-143-3141", null });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Contacts_CategoryId",

@@ -3,9 +3,9 @@ using System;
 
 namespace ContactManager.Models
 {
-    public class ContContext : DbContext
+    public class ContactContext : DbContext
     {
-        public ContContext(DbContextOptions<ContContext> options)
+        public ContactContext(DbContextOptions<ContactContext> options)
             : base(options)
         { }
 

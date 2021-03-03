@@ -9,8 +9,8 @@ namespace ContactManager.Controllers
 {
     public class HomeController : Controller
     {
-        public ContContext context;
-        public HomeController(ContContext ctx)
+        public ContactContext context;
+        public HomeController(ContactContext ctx)
         {
             context = ctx;
         }
